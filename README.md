@@ -1,24 +1,45 @@
-# README
+# Stupid Coaching
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project developed during the [Le Wagon](https://github.com/lewagon) BootCamp Full Stack.
 
-Things you may want to cover:
+## Objective
 
-* Ruby version
+Build a To Do Manager with the basic _CRUD_ features:
 
-* System dependencies
+- As a user, I can list tasks
+- As a user, I can view the details of a task
+- As a user, I can add a new task
+- As a user, I can edit a task (mark as completed / update title & details)
+- As a user, I can remove a task
 
-* Configuration
+## Setup
 
-* Database creation
+To set up the Rails Stupid Coaching application, follow these steps:
 
-* Database initialization
+Clone the repository:
 
-* How to run the test suite
+```sh
+  git clone git@github.com:jotaEmeCortat/rails-task-manager.git
+  cd rails-task-manager
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Install dependencies: Make sure you have Ruby and Bundler installed. Then run:
 
-* Deployment instructions
+```sh
+  bundle install
+```
 
-* ...
+Start the Rails server:
+
+```sh
+  rails db:migrate
+  rails server
+```
+
+Access the application: Open your web browser and go to http://localhost:3000.
+
+## Technologies Used
+
+- Ruby on Rails
+- Bootstrap
+- Font Awesome
