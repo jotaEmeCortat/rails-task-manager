@@ -1,4 +1,4 @@
-# Stupid Coaching
+# Task Manager
 
 Project developed during the [Le Wagon](https://github.com/lewagon) BootCamp Full Stack.
 
